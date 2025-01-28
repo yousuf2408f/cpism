@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Playwrite+DE+VA+Guides&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Calligraffitti", cursive; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navigation{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    overflow: hidden;
+    background-color: gray;
+    box-shadow: 5px 10px 18px gray inset;
+}
+.navbar-nav{
+    margin-right: 63px;
+}
+.nav-item a{
+    font-weight: 700;
+}
+#anchor{
+    color: black;
+    border-radius: 10px;
+}
+#anchor1{
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#anchor1:hover{
+    /* color: red; */
+    color: #e84573;
+    transition: 1s ease-in-out;
+}
+.collapse ul li{
+    margin-left: 20px;
+}
+.btn1 button{
+   margin-left: 272px;
+    padding: 2px;
+    border: 1px solid purple;
+    background-color: transparent;
+    color: purple;
+    font-weight: 800;
+    border-radius: 3px;
+}
+.btn1 button:hover{
+    background-color: purple;
+    color: white;
+}
+ .cont video{
+    width: 1466px;
+    overflow: hidden;
+ }
+ .main-part{
+    width: 100%;
+ }
+ .sec-main{
+    opacity: 0.55;
+ }
+.nav-item button{
+    font-weight: bold;
+    border-radius: 3px;
+    margin-left: 50px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.nav-item button:hover{
+    background-color: rgb(175, 5, 5);
+}
+.card{
+    box-shadow: 10px 10px 8px #888888;
+}
+#preloader{
+    background: #000 url(./Assets/loader/loader.gif) no-repeat center center;
+    background-size: 6%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+span{
+    color: red;
+}
+#card-btn{
+    background-color: red;
+    border: none;
+    font-weight: bold;
+}
+#card-btn:hover{
+    background-color: rgb(175, 5, 5);
+}
+.paragraph{
+    font-size: 19px;
+    text-align: justify;
+}
+#about-style{
+    margin-top: 50px;
+}
+iframe{
+    margin-bottom: 30px;
+}
+#heading{
+    margin-top: 20px;
+}
+.form-floating{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    margin-left: -31px;
+    margin-top: 28px;    
+}
+label{
+    margin-left: 20px;
+}
+input{
+    margin-left: -30px;
+}
+.input-btn{
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    border: none;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.input-btn:hover{
+    background-color: rgb(175, 5, 5);
+}
+#images{
+    width: 300px;
+    height: 350px;
+}
+.img-thumbnail{
+    transition: .7s;
+}
+.img-thumbnail:hover{
+    transform: scale(1.2);
+}
+#cont-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+#cont-btn:hover{
+    background-color: rgb(175, 5, 5);
+}
+
+
+
+
+
+ 
